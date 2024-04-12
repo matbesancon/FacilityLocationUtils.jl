@@ -1,5 +1,9 @@
 module FacilityLocationUtils
 
-# Write your package code here.
+using LinearAlgebra
+using JuMP
+
+include("parser.jl")
+include("compact_model.jl")
 
 end
