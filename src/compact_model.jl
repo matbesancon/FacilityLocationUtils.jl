@@ -10,7 +10,7 @@ function capacitated_facility_location_compact_model(
     depot_cost = instance_namedtuple.depot_cost
     capacities = instance_namedtuple.capacities
     depot_customer_distance_matrix = instance_namedtuple.depot_customer_distance_matrix
-
+    demands = instance_namedtuple.demands
     m = Model(optimizer)
     ndepots = length(depot_cost)
     ncustomers = length(demands)
